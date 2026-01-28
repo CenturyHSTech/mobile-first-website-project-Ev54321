@@ -84,10 +84,10 @@ span.bar {
 }
 /* Logo */
 a.logo {
-    text-indent: -1000px;
+    color: transparent;
     background-image: url(images/Logo.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
 }
 
 /* hide menu */
