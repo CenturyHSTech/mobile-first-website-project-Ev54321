@@ -23,7 +23,7 @@ nav {
     height: 40px;
     width: 100%;
     top: 1em;
-    transition: height 1s ease-in;
+    transition: height 0.5s ease-in;
 }
 nav ul {
     position: relative;
@@ -35,7 +35,7 @@ nav ul {
     margin: 0;
     padding: 0;
     transform: translateY(0);
-    transition: transform 1s ease-in;
+    transition: transform 0.5s ease-in;
 }
 nav ul a{
     display: block;
@@ -93,11 +93,11 @@ a.logo {
 /* hide menu */
 ul.hidden {
     transform: translateY(-300px) scaleY(0);
-    transition: transform 1s ease-in;
+    transition: transform 0.5s ease-in;
 }
 nav.minimized {
     height: 40px;
-    transition: transform 1s ease-in;
+    transition: transform 0.5s ease-in;
 }
 
 /*Mobile layout*/
